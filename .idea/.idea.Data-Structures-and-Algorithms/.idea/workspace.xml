@@ -6,11 +6,31 @@
     <projectFile>Stack/Stack.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2139a5d2-103b-442b-9113-eaa8173effa5" name="Changes" comment="" />
+    <list default="true" id="2139a5d2-103b-442b-9113-eaa8173effa5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Data-Structures-and-Algorithms.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Data-Structures-and-Algorithms.dir/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Data-Structures-and-Algorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Data-Structures-and-Algorithms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linked-list/.idea/.idea.Data-Structures-and-Algorithms.dir/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linked-list/.idea/.idea.Data-Structures-and-Algorithms.dir/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linked-list/.idea/.idea.Data-Structures-and-Algorithms.dir/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linked-list/.idea/.idea.Data-Structures-and-Algorithms.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linked-list/.idea/.idea.Data-Structures-and-Algorithms.dir/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linked-list/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Linked-list/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/.idea/.idea.Stack.dir/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/.idea/.idea.Stack.dir/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/.idea/.idea.Stack.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/.idea/.idea.Stack.dir/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4d3501d32b93473c8966a4cac74bb205c3f400/_b393b/IEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4d3501d32b93473c8966a4cac74bb205c3f400/_e9155/IEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,7 +58,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.Queue">
+  <component name="RunManager" selected=".NET Project.Linked-list">
     <configuration name="Linked-list" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -103,7 +123,8 @@
       <option name="presentableId" value="Default" />
       <updated>1678657414324</updated>
       <workItem from="1678657415498" duration="409000" />
-      <workItem from="1678657827810" duration="2504000" />
+      <workItem from="1678657827810" duration="8045000" />
+      <workItem from="1678727422715" duration="6676000" />
     </task>
     <servers />
   </component>

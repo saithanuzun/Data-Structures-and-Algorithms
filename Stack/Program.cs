@@ -1,10 +1,12 @@
-﻿class Node<T>
+﻿using System.Collections;
+
+class Node<T>
 { 
    public Node<T>? Next;
    public T? Data;
 }
 
-interface IStack<T>
+interface IStack<T> : IEnumerable<T>
 {
     public int Count { get; } 
     void Push(T data);
@@ -61,6 +63,21 @@ class Stack<T> : IStack<T>
         Node<T> newHead = new();
         Head = newHead;
     }
+
+    public IEnumerator<T> GetEnumerator()
+    {
+        Node<T> iter = Head;
+        while (iter is not null)
+        {
+            yield return iter.Data;
+            iter = iter.Next;
+        }
+    }
+
+    IEnumerator IEnumerable.GetEnumerator()
+    {
+        return GetEnumerator();
+    }
 }
 
 class Stack2<T> : IStack<T>
@@ -114,6 +131,20 @@ class Stack2<T> : IStack<T>
     {
         Head = null;
         _size = 0;
+    }
+    public IEnumerator<T> GetEnumerator()
+    {
+        Node<T> iter = Head;
+        while (iter is not null)
+        {
+            yield return iter.Data;
+            iter = iter.Next;
+        }
+    }
+
+    IEnumerator IEnumerable.GetEnumerator()
+    {
+        return GetEnumerator();
     }
 }
 

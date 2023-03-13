@@ -1,10 +1,11 @@
-﻿class Node<T>
+﻿using System.Collections;
+class Node<T>
 { 
    public Node<T>? Next;
    public T? Data;
 }
 
-interface IQueue<T>
+interface IQueue<T> : IEnumerable<T>
 {
     public int Count { get; } 
     void Push(T data);
@@ -13,9 +14,9 @@ interface IQueue<T>
     void Clear();
 }
 
-class Queue<T> : IQueue<T>
+class Queue<T> : IQueue<T> 
 {
-    private Node<T> head,current;
+    private Node<T> head;
     private Node<T> Head { get => head; set => head = value; }
 
     private int size;
@@ -28,8 +29,7 @@ class Queue<T> : IQueue<T>
             head = myNode;
         else
         {
-            Node<T> iter = new();
-            iter = Head;
+            Node<T> iter = Head;
             while (iter.Next is not null)
             {
                 iter = iter.Next;
@@ -56,6 +56,20 @@ class Queue<T> : IQueue<T>
     {
         Head = null;
         size = 0;
+    }
+    public IEnumerator<T> GetEnumerator()
+    {
+        Node<T> iter = Head;
+        while (iter is not null)
+        {
+            yield return iter.Data;
+            iter = iter.Next;
+        }
+    }
+
+    IEnumerator IEnumerable.GetEnumerator()
+    {
+        return GetEnumerator();
     }
 }
 
